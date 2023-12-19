@@ -25,7 +25,6 @@
         }
     }
     .phone-number{
-        background-color: #ffb606;
         display: none;
     }
     a{
@@ -41,5 +40,47 @@
     }
     img{
         height: 43px;
+    }
+}
+@media screen and (min-width:1023px){
+    .burger-menu{
+        display: none;
+    }
+    .top-nav{
+        flex-direction: row;
+        padding: 20px 15px;
+        .left{
+            display: flex;
+            align-items: center;
+        }
+        .middle{
+            margin: 0px 20px;
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            a{
+                display: flex;
+                justify-content: space-between;
+                color: black;
+                &:hover{
+                    color: #ffb606;
+                }
+            }
+        }
+        a{
+            display: contents;
+        }
+        .phone-number{
+            display: contents;
+            width: 279px;
+            height: 100%;
+            background-color: #ffb606;
+            img{
+                width: 29px;
+            }
+        }
+        h2{
+            display: contents;
+        }
     }
 }
