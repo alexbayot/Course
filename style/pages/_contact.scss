@@ -1,0 +1,44 @@
+.contact_main{
+    .form{
+        background: none;
+        h2{
+            text-align: left;
+            font-size: 36px;
+        }
+        form{
+            font-size: 14px;
+            input{
+                background-color: #f8f4f4;
+            }
+            textarea{
+                border: 0;
+                background-color: #f8f4f4;
+                margin-bottom: 40px;
+                padding-left: 10px;
+                font-weight: bold;
+            }
+            button{
+                text-transform: uppercase;
+            }
+        }
+    }  
+    .join{
+        width: 90%;
+        margin: 0 auto;
+        h2{
+            font-size: 36px;
+            margin-top: -180px;
+        }
+        p{
+            font-size: 13px;
+            color: gray;
+            line-height: 30px;
+            margin-bottom: 70px;
+        }
+    }
+}
+iframe{
+    width: 90%;
+    margin: 0px 20px;
+    margin-bottom: 100px;
+}
